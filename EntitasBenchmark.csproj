@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <LangVersion>11.0</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+    <RootNamespace>EntitasBenchmark</RootNamespace>
+    <PublishAot>true</PublishAot>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DesperateDevs.Caching">
+      <HintPath>Assemblies\DesperateDevs.Caching.dll</HintPath>
+    </Reference>
+    <Reference Include="Entitas">
+      <HintPath>Assemblies\Entitas.dll</HintPath>
+    </Reference>
+    <Reference Include="Entitas.CodeGeneration.Attributes">
+      <HintPath>Assemblies\Entitas.CodeGeneration.Attributes.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
